@@ -1,0 +1,98 @@
+    /* p {
+        color: ;
+    } */
+
+    body {
+        background: rgb(228, 225, 225);
+padding: 0 10px;    }
+
+
+    div.header {
+        background-image: url(iwoPalace.jpg);
+        height: 170px;
+    }
+    
+    .nav {
+        text-transform: uppercase; 
+    }
+
+    li {
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-block;
+        margin: 5px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color: white;
+        margin-top: 120px;
+    }
+
+     div.header {
+        color: black;
+    }
+    .rightContent {
+    }
+
+    .leftContent {
+        float: left;
+        height: 200px;
+        width: 240px;
+        padding-top: 40px;
+        margin-top: -22px;
+        margin-right: 20px;
+        background-color: black;
+    }
+
+    .leftContent a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        width: 200px;
+        background-color: black;
+    }
+    .leftContent a:hover{
+        color: black;
+        background-color: rgb(219, 216, 216)
+    }
+   li:hover {
+        background-color: tomato;
+        color: black;
+    }
+    a {
+        text-decoration: none;
+    }
+    .footer {
+        padding: 30px;
+        color: white;
+        text-align: center;
+        background-color: black;
+        clear: both;
+    }
+    .socials a {
+        text-transform: capitalize;
+        font-size: large;
+        display: inline-block;
+        width: 100px;
+        height: 40px;
+        margin-left: 20px;
+    }
+
+    .socials a img {
+        float: right;
+        width: 20px;
+        height: 20px;
+    }
+    #img {
+        text-align: center;
+    }
+    
+    .img {
+        margin: 15px 30px;
+        width: 275px;
+        height: 185px;
+    }
+
+    .imgGallery {
+        display: inline-block;
+    }
